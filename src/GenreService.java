@@ -67,11 +67,6 @@ public class GenreService {
 
         existingGenreEntity.setName(genreInput.getName());
         existingGenreEntity.setDescription(genreInput.getDescription());
-
-        //refresh
-        genreRepository.remove(existingGenreEntity);
-        genreRepository.add(existingGenreEntity);
-        return existingGenreEntity;
     }
 
     /**
