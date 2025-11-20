@@ -1,3 +1,5 @@
+package walter.duncan.vinylwebshop.entities;
+
 public class Genre {
     /**
      * Dit is een mock-model voor de Genre.
